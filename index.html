@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Meme Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="wrapper">
+        <h1>CSS Meme Slider</h1>
+      <div class="slider">
+        <input type="radio" name="image-slider" id="meme1" checked />
+        <input type="radio" name="image-slider" id="meme2" />
+        <input type="radio" name="image-slider" id="meme3" />
+        <input type="radio" name="image-slider" id="meme4" />
+        <div class="slider-inner">
+          <div class="slide s1"><img src="./assets/1.jpg" alt="store" /></div>
+          <div class="slide"><img src="./assets/2.jpg" alt="fat" /></div>
+          <div class="slide"><img src="./assets/3.jpg" alt="droids" /></div>
+          <div class="slide"><img src="./assets/4.jpg" alt="Boyarskiy" /></div>
+        </div>
+        <div class="slider-row">
+          <div class="slider-dots">
+            <label class="dot" for="meme1"><div class="dot-inner dot-inner-1"></div></label>
+            <label class="dot" for="meme2"><div class="dot-inner dot-inner-2"></div></label>
+            <label class="dot" for="meme3"><div class="dot-inner dot-inner-3"></div></label>
+            <label class="dot" for="meme4"><div class="dot-inner dot-inner-4"></div></label>
+          </div>
+          <div class="slider-text">
+            <div class="slider-text-inner">
+              <p class="p1">Все четко</p>
+              <p>Так ты точно похудеешь к лету</p>
+              <p>The Force is strong with this one</p>
+              <p>Тысяча чертей!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
