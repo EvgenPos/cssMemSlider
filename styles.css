@@ -110,3 +110,30 @@
   input[type="radio"] {
     display: none;
   }
+
+  #meme1:checked ~ .slider-inner .s1,
+  #meme1:checked ~ .slider-row .slider-text .slider-text-inner .p1 {
+    margin-left: 0;
+  }
+  
+  #meme2:checked ~ .slider-inner .s1,
+  #meme2:checked ~ .slider-row .slider-text .slider-text-inner .p1 {
+    margin-left: -20%;
+  }
+  
+  #meme3:checked ~ .slider-inner .s1,
+  #meme3:checked ~ .slider-row .slider-text .slider-text-inner .p1 {
+    margin-left: -40%;
+  }
+  
+  #meme4:checked ~ .slider-inner .s1,
+  #meme4:checked ~ .slider-row .slider-text .slider-text-inner .p1 {
+    margin-left: -60%;
+  }
+  #meme1:checked ~ .slider-row .slider-dots .dot .dot-inner-1,
+  #meme2:checked ~ .slider-row .slider-dots .dot .dot-inner-2,
+  #meme3:checked ~ .slider-row .slider-dots .dot .dot-inner-3,
+  #meme4:checked ~ .slider-row .slider-dots .dot .dot-inner-4
+  {
+    background-color: transparent;
+  }
